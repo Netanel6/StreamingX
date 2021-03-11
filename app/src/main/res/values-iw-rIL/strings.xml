@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllInOne</string>
+    <string name="streaming" translatable="false">צפייה ישירה</string>
+    <string name="channel_20" translatable="false">ערוץ 20</string>
+    <string name="channel_13" translatable="false">ערוץ 13</string>
+    <string name="channel_12" translatable="false">ערוץ 12</string>
+    <string name="twenty_news" translatable="false">חדשות 20</string>
+    <string name="walla" translatable="false">וואלה</string>
+    <string name="maariv" translatable="false">מעריב</string>
+    <string name="mako" translatable="false">מאקו</string>
+    <string name="news" translatable="false">חדשות</string>
+    <string name="pais" translatable="false">מפעל הפיס</string>
+    <string name="winner" translatable="false">ווינר</string>
+    <string name="sport" translatable="false">ספורט</string>
+    <string name="sport_5" translatable="false">ספורט 5</string>
+    <string name="nav_header_title" translatable="false">פותח ע׳׳י נתנאל עמר</string>
+    <string name="home" translatable="false">בית</string>
+    <string name="channel_11" translatable="false">"ערוץ 11"</string>
+    <string name="instructions">בכדי להתחיל לעבור בין אתרים\nלחץ על הכפתור העליון הימני</string>
+</resources>

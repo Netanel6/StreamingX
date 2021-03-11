@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="@string/home" />
+            </group>
+    <item android:title="@string/sport"
+        android:checkable="false">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_live_games"
+                android:title="@string/live_games" />
+            <item
+                android:id="@+id/nav_sport5"
+                android:title="@string/sport_5" />
+            <item
+                android:id="@+id/nav_one"
+                android:title="@string/one" />
+            <item
+                android:id="@+id/nav_winner"
+                android:title="@string/winner" />
+            <item
+                android:id="@+id/nav_pais"
+                android:title="@string/pais" />
+        </group>
+    </menu>
+    </item>
+    <item android:title="@string/news"
+        android:checkable="false">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_maariv"
+                    android:title="@string/maariv" />
+                <item
+                    android:id="@+id/nav_mako"
+                    android:title="@string/mako" />
+                <item
+                    android:id="@+id/nav_ynet"
+                    android:title="@string/ynet" />
+                <item
+                    android:id="@+id/nav_walla"
+                    android:title="@string/walla" />
+                <item
+                    android:id="@+id/nav_twenty_news"
+                    android:title="@string/twenty_news" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/streaming"
+        android:checkable="false">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_youtube"
+                    android:title="@string/youtube" />
+                <item
+                    android:id="@+id/nav_channel_eleven"
+                    android:title="@string/channel_11" />
+                <item
+                    android:id="@+id/nav_channel_twelve"
+                    android:title="@string/channel_12" />
+                <item
+                    android:id="@+id/nav_channel_thirteen"
+                    android:title="@string/channel_13" />
+                <item
+                    android:id="@+id/nav_twenty"
+                    android:title="@string/channel_20" />
+            </group>
+        </menu>
+    </item>
+</menu>

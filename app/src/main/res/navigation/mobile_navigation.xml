@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.netanel.allinone.ui.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_live_games"
+        android:name="com.netanel.allinone.ui.LiveGamesFragment"
+        android:label="@string/live_games"
+        tools:layout="@layout/fragment_live_games" />
+
+    <fragment
+        android:id="@+id/nav_sport5"
+        android:name="com.netanel.allinone.ui.Sport5Fragment"
+        android:label="@string/sport_5"
+        tools:layout="@layout/fragment_sport_5" />
+
+    <fragment
+        android:id="@+id/nav_one"
+        android:name="com.netanel.allinone.ui.OneFragment"
+        android:label="@string/one"
+        tools:layout="@layout/fragment_one" />
+    <fragment
+        android:id="@+id/nav_winner"
+        android:name="com.netanel.allinone.ui.WinnerFragment"
+        android:label="@string/winner"
+        tools:layout="@layout/fragment_winner" />
+    <fragment
+        android:id="@+id/nav_pais"
+        android:name="com.netanel.allinone.ui.PaisFragment"
+        android:label="@string/pais"
+        tools:layout="@layout/fragment_pais" />
+    <fragment
+        android:id="@+id/nav_maariv"
+        android:name="com.netanel.allinone.ui.MaarivFragment"
+        android:label="@string/maariv"
+        tools:layout="@layout/fragment_maariv" />
+    <fragment
+        android:id="@+id/nav_mako"
+        android:name="com.netanel.allinone.ui.MakoFragment"
+        android:label="@string/mako"
+        tools:layout="@layout/fragment_mako" />
+    <fragment
+        android:id="@+id/nav_ynet"
+        android:name="com.netanel.allinone.ui.YnetFragment"
+        android:label="@string/ynet"
+        tools:layout="@layout/fragment_ynet" />
+    <fragment
+        android:id="@+id/nav_walla"
+        android:name="com.netanel.allinone.ui.WallaFragment"
+        android:label="@string/walla"
+        tools:layout="@layout/fragment_walla" />
+    <fragment
+        android:id="@+id/nav_youtube"
+        android:name="com.netanel.allinone.ui.YoutubeFragment"
+        android:label="@string/youtube"
+        tools:layout="@layout/fragment_youtube" />
+    <fragment
+        android:id="@+id/nav_channel_eleven"
+        android:name="com.netanel.allinone.ui.ChannelElevenFragment"
+        android:label="@string/channel_11"
+        tools:layout="@layout/fragment_channel_eleven" />
+    <fragment
+        android:id="@+id/nav_twenty_news"
+        android:name="com.netanel.allinone.ui.TwentyNewsFragment"
+        android:label="@string/twenty_news"
+        tools:layout="@layout/fragment_twenty_news" />
+    <fragment
+        android:id="@+id/nav_channel_twelve"
+        android:name="com.netanel.allinone.ui.ChannelTwelveFragment"
+        android:label="@string/channel_12"
+        tools:layout="@layout/fragment_channel_twelve" />
+    <fragment
+        android:id="@+id/nav_channel_thirteen"
+        android:name="com.netanel.allinone.ui.ChannelThirteenFragment"
+        android:label="@string/channel_13"
+        tools:layout="@layout/fragment_channel_thirteen" />
+    <fragment
+        android:id="@+id/nav_twenty"
+        android:name="com.netanel.allinone.ui.ChannelTwentyFragment"
+        android:label="@string/channel_20"
+        tools:layout="@layout/fragment_channel_twenty" />
+</navigation>

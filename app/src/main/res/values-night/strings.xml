@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sport_5">Sport5</string>
+    <string name="sport">Sport</string>
+    <string name="winner">Winner</string>
+    <string name="one" translatable="false">One</string>
+    <string name="live_games" translatable="false">Live Games</string>
+    <string name="pais">Pais</string>
+    <string name="news">News</string>
+    <string name="mako">Mako</string>
+    <string name="maariv">Maariv</string>
+    <string name="ynet" translatable="false">Ynet</string>
+    <string name="walla">Walla</string>
+    <string name="twenty_news">20 News</string>
+    <string name="channel_12">Channel 12</string>
+    <string name="channel_13">Channel 13</string>
+    <string name="channel_20">Channel 20</string>
+    <string name="home">Home</string>
+    <string name="youtube">YouTube</string>
+    <string name="channel_11">"Channel 11 "</string>
+    <string name="instructions">To start navigating between websites\npress the upper left button</string>
+</resources>
